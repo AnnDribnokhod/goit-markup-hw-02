@@ -46,10 +46,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--brand-color);
 }
-.header-link:hover,
-.header-link:focus {
-  color: #4d5ae5;
-}
 .header-address {
 }
 .header-address-list {
@@ -63,6 +59,11 @@ body {
   letter-spacing: 0.02em;
   color: var(--link-color);
 }
+.header-link:hover,
+.header-link:focus,
+.header-address-link:hover {
+  color: #4d5ae5;
+}
 .hero {
   background-color: var(--background-color);
 }
@@ -75,8 +76,6 @@ body {
 }
 
 .hero-button {
-  width: 169px;
-  height: 56px;
   background: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -86,6 +85,12 @@ body {
   line-height: 1.55;
   letter-spacing: 0.04em;
   color: #ffffff;
+  cursor: pointer;
+}
+.hero-button:hover {
+  background: #404bbf;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 .advantages {
 }
@@ -190,6 +195,7 @@ body {
   line-height: 0.66;
   letter-spacing: 0.04em;
   color: #4d5ae5;
+  cursor: pointer;
 }
 .filter-item-btn:hover,
 .filter-item-btn:focus {
