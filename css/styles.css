@@ -1,3 +1,253 @@
+:root {
+  --brand-color: #2e2f42;
+  --logo-color: #4d5ae5;
+  --background-color: #2e2f42;
+  --link-color: #2e2f42;
+  --description-color: #434455;
+  --title-color: #2e2f42;
+}
+
 body {
   font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+.hidden {
+  display: none;
+}
+.header {
+}
+.header-navigation {
+}
+.header-logo {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--brand-color);
+}
+.header-logo-span {
+  color: var(--logo-color);
+}
+.header-list {
+}
+.header-item {
+}
+.header-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.55;
+  letter-spacing: 0.02em;
+  color: var(--brand-color);
+}
+.header-link:hover,
+.header-link:focus {
+  color: #4d5ae5;
+}
+.header-address {
+}
+.header-address-list {
+}
+.header-address-item {
+}
+.header-address-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.55;
+  letter-spacing: 0.02em;
+  color: var(--link-color);
+}
+.hero {
+  background-color: var(--background-color);
+}
+.hero-headline {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.hero-button {
+  width: 169px;
+  height: 56px;
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: 500;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.55;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+.advantages {
+}
+.advantages-title {
+}
+.advantages-list {
+}
+.list {
+}
+.advantages-item {
+}
+.advantages-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 0.83;
+  letter-spacing: 0.02em;
+  color: var(--brand-color);
+}
+.advantages-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 0.66;
+  letter-spacing: 0.02em;
+  color: var(--description-color);
+}
+.services {
+}
+.services-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 0.99;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--title-color);
+}
+.services-list {
+}
+.services-item {
+}
+.services-item-image {
+  width: 360px;
+  height: 300px;
+  background: linear-gradient(
+      0deg,
+      rgba(77, 90, 229, 0.1),
+      rgba(77, 90, 229, 0.1)
+    ),
+    url(2368);
+  background-blend-mode: soft-light, normal;
+  border: 1px solid #e7e9fc;
+}
+.team {
+  background-color: #f4f4fd;
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 0.99;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--title-color);
+}
+.team-list {
+}
+.team-item {
+  background-color: #ffffff;
+}
+.team-item-image {
+  width: 264px;
+  height: 260px;
+  background: url(man-with-laptop-presenting-something.jpg);
+  mix-blend-mode: normal;
+}
+.team-item-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 0.83;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.team-item-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 0.66;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.portfolio {
+}
+
+.filter-list {
+}
+.filter-item {
+}
+.filter-item-btn {
+  border: 1px solid #e7e9fc;
+  padding: 12px 24px;
+  border-radius: 4px;
+  background: #f4f4fd;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 0.66;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+}
+.filter-item-btn:hover,
+.filter-item-btn:focus {
+  background: #404bbf;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  color: #ffffff;
+}
+.cards-list {
+}
+.cards-item {
+}
+.cards-item-image {
+  width: 360px;
+  height: 300px;
+  background: linear-gradient(
+      0deg,
+      rgba(77, 90, 229, 0.1),
+      rgba(77, 90, 229, 0.1)
+    ),
+    url(4074365.jpg);
+  background-blend-mode: soft-light, normal;
+  mix-blend-mode: normal;
+}
+.cards-item-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 0.83;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.cards-item-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 0.66;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.footer {
+  background: #2e2f42;
+}
+.footer-logo {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 0.85;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+.footer-logo-span {
+  color: #4d5ae5;
+}
+.footer-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 0.66;
+  letter-spacing: 0.02em;
+  color: #e7e9fc;
 }
