@@ -186,6 +186,7 @@ body {
 .filter-item {
 }
 .filter-item-btn {
+  font-family: inherit;
   border: 1px solid #e7e9fc;
   padding: 12px 24px;
   border-radius: 4px;
